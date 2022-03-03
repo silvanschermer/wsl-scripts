@@ -6,6 +6,8 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 
 wsl --install
 
+wsl --set-default-version 2
+
 Start-BitsTransfer -Source $url
 
 Start-Process .\wsl_update_x64.msi
