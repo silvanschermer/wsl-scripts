@@ -12,7 +12,7 @@ then
 
     chsh -s $(which zsh) # make zsh the default shell
 
-    # $ZSH is the path variable set by oh my zsh
+    # $ZSH is a path variable set by oh my zsh
     if [ "$ZSH" = "" ];
         then
         ## Install oh my ZSH from github
