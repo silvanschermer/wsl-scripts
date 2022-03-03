@@ -25,3 +25,5 @@ then
 else
     echo "zsh is already installed."
 fi
+
+exit 1
